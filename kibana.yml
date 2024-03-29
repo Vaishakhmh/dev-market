@@ -1,0 +1,8 @@
+server.name: kibana
+server.host: "0.0.0.0"
+server.port: 5601
+
+monitoring.ui.container.elasticsearch.enabled: true
+xpack.fleet.enabled: true
+xpack.fleet.agents.enabled: true
+xpace.fleet.agents.elasicsearch.hosts: ["http://elasticsearch_container:9200"]
